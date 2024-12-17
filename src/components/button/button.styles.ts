@@ -5,6 +5,8 @@ export default css`
     --button-bg-color: #f0f0f0;
     --button-fg-color: #333;
     --button-border-color: transparent;
+    --button-padding: 8px 16px;
+    --button-font-size: 14px;
 
     display: inline-flex;
   }
@@ -15,7 +17,8 @@ export default css`
     border: 1px solid var(--button-border-color);
     border-radius: 4px;
     color: var(--button-fg-color);
-    padding: 8px 16px;
+    padding: var(--button-padding);
+    font-size: var(--button-font-size);
   }
 
   button:disabled {
@@ -39,5 +42,20 @@ export default css`
     --button-bg-color: transparent;
     --button-fg-color: #024996;
     --button-border-color: transparent;
+  }
+
+  :host([size='small']) {
+    --button-padding: 4px 8px;
+    --button-font-size: 12px;
+  }
+
+  :host([size='medium']) {
+    --button-padding: 8px 16px;
+    --button-font-size: 14px;
+  }
+
+  :host([size='large']) {
+    --button-padding: 12px 24px;
+    --button-font-size: 16px;
   }
 `;

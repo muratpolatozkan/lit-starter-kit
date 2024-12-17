@@ -27,6 +27,10 @@ export default class MyButton extends LitElement {
   @property({ type: Boolean })
   disabled = false;
 
+  /** Sets the size of the button */
+  @property()
+  size?: 'small' | 'medium' | 'large';
+
   override render() {
     return html`
       <button part="control" ?disabled=${this.disabled}>

@@ -1,0 +1,102 @@
+---
+title: Button
+description: The button component is used to trigger an action or event.
+---
+
+# Button
+
+This is an example of a button component.
+
+
+
+<my-button>My Button</my-button>
+
+<code-bubble>
+
+```html
+<my-button>My Button</my-button>
+```
+
+```tsx
+import { MyButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return <MyButton>My Button</MyButton>;
+};
+```
+
+</code-bubble>
+
+## Variations
+
+Here are some examples of button variations.
+
+<code-bubble>
+
+```html
+<my-button>My Button</my-button>
+<my-button variation="primary">My Button</my-button>
+<my-button variation="hollow">My Button</my-button>
+<my-button variation="transparent">My Button</my-button>
+```
+
+```tsx
+import { MyButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return <>
+    <MyButton>My Button</MyButton>
+    <MyButton variation="primary">My Button</MyButton>
+    <MyButton variation="hollow">My Button</MyButton>
+    <MyButton variation="transparent">My Button</MyButton>
+  </>;
+};
+```
+
+</code-bubble>
+
+## Disabled
+
+Here is an example of how to disable a button.
+
+<code-bubble>
+
+```html
+<my-button disabled>My Button</my-button>
+```
+
+```tsx
+import { MyButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return <MyButton disabled>My Button</MyButton>;
+};
+```
+
+</code-bubble>
+
+## Sizes
+
+Here are some examples of button sizes.
+
+<code-bubble>
+
+```html
+<my-button size="small">Small Button</my-button>
+<my-button size="medium">Medium Button</my-button>
+<my-button size="large">Large Button</my-button>
+```
+
+```tsx
+import { MyButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return <>
+    <MyButton size="small">Small Button</MyButton>
+    <MyButton size="medium">Medium Button</MyButton>
+    <MyButton size="large">Large Button</MyButton>
+  </>;
+};
+```
+
+</code-bubble>

@@ -139,3 +139,6 @@ custom-elements.json
 vscode.css-custom-data.json
 vscode.html-custom-data.json
 web-types.json
+
+# generated types
+.astro/
