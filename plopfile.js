@@ -72,12 +72,6 @@ export default function (plop) {
         {
           type: 'add',
           skipIfExists: true,
-          path: `${BASE_PATH}/{{kebabCase name}}.stories.ts`,
-          templateFile: 'plop-templates/component.stories.ts.hbs',
-        },
-        {
-          type: 'add',
-          skipIfExists: true,
           path: `${BASE_PATH}/index.ts`,
           templateFile: 'plop-templates/component.definition.ts.hbs',
         },

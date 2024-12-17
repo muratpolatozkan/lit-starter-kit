@@ -16,7 +16,6 @@ export default [
       globSync('src/**/*.ts', {
         ignore: [
           'src/**/*.test.ts',
-          'src/**/*.stories.ts',
           'src/**/*.styles.ts',
         ],
       }).map(file => [
@@ -58,7 +57,6 @@ export default [
       globSync('src/**/*.ts', {
         ignore: [
           'src/**/*.test.ts',
-          'src/**/*.stories.ts',
           'src/**/*.styles.ts',
         ],
       }).map(file => [
