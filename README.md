@@ -7,7 +7,6 @@ Welcome to the Lit Starter Kit. This is not an official kit for the Lit library,
 This repository is designed to be a "batteries included" repo, so you can hit the ground running with what you need to start delivering components. This repo includes:
 
 - ✅ Library and component scaffolding
-- ✅ [Storybook](https://storybook.js.org/docs/get-started/frameworks/web-components-vite?renderer=web-components) integration (with [helpers](https://www.npmjs.com/package/wc-storybook-helpers))
 - ✅ CDN build (in `/cdn`)
 - ✅ NPM build (in `/dist`)
 - ✅ Testing
@@ -29,7 +28,7 @@ npm init lit-starter-kit your-project-name
 
 ## Running the Code
 
-The development environment uses [Storybook](https://storybook.js.org/) to showcase and document the components. The documentation files are written in MDX files to increase portability in case you wan to use a different tool for documenting your components.
+The development environment uses [Astro](https://astro.build/) to showcase and document the components. The documentation files are written in MDX files to increase portability in case you want to use a different tool for documenting your components.
 
 ```bash
 npm run dev
