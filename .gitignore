@@ -142,3 +142,4 @@ web-types.json
 
 # generated types
 .astro/
+package-lock.json
